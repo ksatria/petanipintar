@@ -1,0 +1,17 @@
+$terang: rgb(252,252,252);
+$gelap: rgb(8,8,8);
+
+body {
+    // &.light{
+    //     color: $gelap;
+    //     background-color: $terang;
+    // }
+
+    // &.dark{
+    //     color: $terang;
+    //     background-color: $gelap;
+    // }
+
+        color: $terang;
+        background-color: $gelap;
+}
