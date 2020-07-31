@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Link from 'next/link';
 
 class Home extends Component {
 	constructor(props) {
@@ -21,6 +22,7 @@ class Home extends Component {
 				<h1>Halo!</h1>
 				<p>Cek halaman</p>
 				<button onClick={this.ubahWarna}>Ubah Warna</button>
+				<p><Link href="/next"><a>Go to the Next Page</a></Link></p>
 			</>
 		);
 	}
