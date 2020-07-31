@@ -7,3 +7,5 @@ const Next = () => (
         <p className="small"><Link href="/"><a>Go back to the Home</a></Link></p>
     </>
 )
+
+export default Next;
